@@ -1,0 +1,30 @@
+version: "3"
+services:
+  wordpress:
+    image: wordpress
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: "nf19Pass"
+      WORDPRESS_DB_NAME: nf19proj
+    networks:
+      net1:
+        ipv4_address: "172.19.0.2"
+  mysql:
+    image: "mysql:5.7"
+    environment:
+      MYSQL_DATABASE: nf19proj
+      MYSQL_ROOT_PASSWORD: "nf19Pass" 
+    networks:
+      net1:
+        ipv4_address: "172.19.0.3"
+networks:
+  net1:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.19.0.0/24"
