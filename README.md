@@ -1,9 +1,11 @@
 # projetNF19
 
-Prérequis : Avoir installé docker et docker compose
-Install docker : https://docs.docker.com/engine/install/
+__Prérequis__ : Avoir installé docker et docker compose  
+  
+Si vous ne les avez pas installés :  
+  
+Install docker : https://docs.docker.com/engine/install/  
 Install docker compose : https://docs.docker.com/compose/install/
-
 
 1. Démarrer docker sur votre machine
 
