@@ -24,7 +24,7 @@ cd projetNF19
 4. Utiliser docker compose
 
 ```bash
-dokcer compose up -d
+sudo dokcer compose up -d
 ```
 5. Ouvrir votre navigateur web et copier coller le lien ci-dessous
 
