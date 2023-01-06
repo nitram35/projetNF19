@@ -2,6 +2,8 @@ version: "3"
 services:
   wordpress:
     image: wordpress
+    volumes:
+      - ./site:/var/www/html/ 
     ports:
       - "8080:80"
     depends_on:
@@ -16,6 +18,8 @@ services:
         ipv4_address: "172.19.0.2"
   mysql:
     image: "mysql:5.7"
+    volumes:
+      - ./data:/var/lib/mysql
     environment:
       MYSQL_DATABASE: nf19proj
       MYSQL_ROOT_PASSWORD: "nf19Pass" 
