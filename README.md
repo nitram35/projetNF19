@@ -7,6 +7,8 @@ Si vous ne les avez pas installés :
 Install docker : https://docs.docker.com/engine/install/  
 Install docker compose : https://docs.docker.com/compose/install/
 
+## Démarrer l'infrastructure  
+
 1. Démarrer docker sur votre machine
 
 ```bash
@@ -28,8 +30,21 @@ cd projetNF19
 ```bash
 sudo dokcer compose up -d
 ```
-5. Ouvrir votre navigateur web et copier coller le lien ci-dessous
+
+## Aller sur le site
+
+Ouvrir votre navigateur web et copier coller le lien ci-dessous
 
 ```bash
 http://localhost:8080
 ```
+
+## Modifier le site
+
+1. Ouvrir votre navigateur web et copier coller le lien ci-dessous
+
+```bash
+http://localhost:8080/wp-admin
+```
+
+2. Entrer les identifiants (id : root, mot de passe: root) pour se connecter à l'interface de gestion wordpress
