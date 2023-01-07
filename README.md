@@ -30,7 +30,7 @@ cd projetNF19
 4. Utiliser docker compose
 
 ```bash
-sudo dokcer compose up -d
+sudo docker compose up -d
 ```
 
 ## Aller sur le site
