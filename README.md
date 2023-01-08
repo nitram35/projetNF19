@@ -9,6 +9,8 @@ Si vous ne les avez pas installés :
 Install docker : https://docs.docker.com/engine/install/  
 Install docker compose : https://docs.docker.com/compose/install/
 
+Version minimale de docker compose : 1.13.0
+
 ## Démarrer l'infrastructure  
 
 1. Démarrer docker sur votre machine
