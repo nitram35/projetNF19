@@ -30,12 +30,12 @@ sudo systemctl start docker
 ```bash
 git clone https://github.com/TheoM769/projetNF19
 ```
-3. Aller dans le répertoire
+3. Aller dans le répertoire de votre choix
 
 ```bash
 cd projetNF19
 ```
-4. Utiliser docker compose
+4. Utiliser docker compose (si la commande n'aboutit pas -> renommer l'extension du fichier `docker-compose.yaml` en `docker-compose.yml`)
 
 ```bash
 sudo docker compose up -d
