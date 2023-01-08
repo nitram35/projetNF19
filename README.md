@@ -33,7 +33,7 @@ cd projetNF19
 sudo docker compose up -d
 ```
 
-## Aller sur le site
+## Visiter le site
 
 Ouvrir votre navigateur web et copier coller le lien ci-dessous
 
